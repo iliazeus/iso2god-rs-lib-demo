@@ -1,0 +1,9 @@
+[package]
+name = "iso2god-rs-lib-demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+clap = "4.5.35"
+iso2god = { git = "https://github.com/iliazeus/iso2god-rs.git", tag = "v1.7.0", version = "1.7.0" }
